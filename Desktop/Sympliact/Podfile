@@ -1,0 +1,12 @@
+# coding: utf-8
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘9.0’
+use_frameworks!
+
+target ‘Sympliact’ do
+     pod 'RealmSwift'
+     pod 'Material', '~> 2.0'
+end
+

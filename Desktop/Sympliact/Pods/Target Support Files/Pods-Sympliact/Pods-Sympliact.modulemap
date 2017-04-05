@@ -1,0 +1,6 @@
+framework module Pods_Sympliact {
+  umbrella header "Pods-Sympliact-umbrella.h"
+
+  export *
+  module * { export * }
+}

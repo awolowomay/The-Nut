@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SectionHeader" customModule="MedProj" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PcX-IV-pUG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uL1-wJ-EEV">
+                            <rect key="frame" x="8" y="8" width="359" height="44"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp9-z0-QN2">
+                            <rect key="frame" x="327" y="10" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="00U-Kr-Ehh"/>
+                                <constraint firstAttribute="height" constant="40" id="hRJ-2l-LEK"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.34766705269999998" green="0.76074714470000004" blue="0.69841963870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uL1-wJ-EEV" secondAttribute="trailing" constant="8" id="2XO-hc-1kj"/>
+                        <constraint firstItem="Lp9-z0-QN2" firstAttribute="centerY" secondItem="uL1-wJ-EEV" secondAttribute="centerY" id="BO7-vJ-HNC"/>
+                        <constraint firstItem="uL1-wJ-EEV" firstAttribute="leading" secondItem="PcX-IV-pUG" secondAttribute="leading" constant="8" id="agT-Uq-A6m"/>
+                        <constraint firstItem="uL1-wJ-EEV" firstAttribute="top" secondItem="PcX-IV-pUG" secondAttribute="top" constant="8" id="hbG-Dh-dCq"/>
+                        <constraint firstAttribute="trailing" secondItem="Lp9-z0-QN2" secondAttribute="trailing" constant="8" id="iYN-ck-m6h"/>
+                        <constraint firstAttribute="bottom" secondItem="uL1-wJ-EEV" secondAttribute="bottom" constant="8" id="onm-oS-zDm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PcX-IV-pUG" secondAttribute="trailing" id="GGb-Gb-Sf0"/>
+                <constraint firstAttribute="bottom" secondItem="PcX-IV-pUG" secondAttribute="bottom" id="PJC-BI-chB"/>
+                <constraint firstItem="PcX-IV-pUG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vq4-Ke-pKu"/>
+                <constraint firstItem="PcX-IV-pUG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lsA-6f-qf3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addQuestionButton" destination="Lp9-z0-QN2" id="OnO-7y-YyF"/>
+                <outlet property="titleLabel" destination="uL1-wJ-EEV" id="TeV-SR-EOX"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="55"/>
+        </view>
+    </objects>
+</document>

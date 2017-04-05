@@ -1,0 +1,22 @@
+PODS:
+  - Material (2.4.11):
+    - Material/Core (= 2.4.11)
+  - Material/Core (2.4.11)
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
+  - RealmSwift (2.4.2):
+    - Realm (= 2.4.2)
+
+DEPENDENCIES:
+  - Material (~> 2.0)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Material: 09b50565d8f824bd74881eba12d7c549b41f510d
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
+  RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
+
+PODFILE CHECKSUM: b1c94db2fa82f2ad1ca9549ea6c4250b7b89fbcf
+
+COCOAPODS: 1.2.0
